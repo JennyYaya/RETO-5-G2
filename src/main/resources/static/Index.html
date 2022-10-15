@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alquiler de Cuatrimotos</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="FuncionesR3.js"></script>
+
+<body>
+
+    <h1>Categoria</h1>
+
+    Id de categoria: <input type="number" id="idCategoria"><br>
+    Nombre categoria: <input type="text" id="nombreCategoria"><br>
+    Descripcion categoria: <input type="text" id="descripcionCategoria"><br>
+
+    <button onclick="leerCategorias()">CONSULTAR</button>
+    <button onclick="guardarCategoria()">GUARDAR</button>
+    <button onclick="editarCategoria()">ACTUALIZAR</button>
+    <button onclick="buscarCategoriaId()">BUSCAR</button>
+
+    <h2>Lista Categorias</h2>
+
+    <div id="listaCategoria">
+
+    </div>
+
+    <h1>Cuatrimotos</h1>
+
+    Id de cuatrimoto: <input type="number" id="idCuatrimoto"><br>
+    Marca cuatrimoto: <input type="text" id="marcaCuatrimoto"><br>
+    Modelo cuatrimoto: <input type="number" id="modeloCuatrimoto"><br>
+    Categoria cuatrimoto: <input type="number" id="categoriaCuatrimoto"><br>
+    Nombre cuatrimoto: <input type="texto" id="nombreCuatrimoto"><br>
+
+    <button onclick="leerCuatrimotos()">CONSULTAR</button>
+    <button onclick="guardarCuatrimoto()">GUARDAR</button>
+    <button onclick="editarCuatrimoto()">ACTUALIZAR</button>
+    <button onclick="buscarCuatrimotoId()">BUSCAR</button>
+
+    <h2>Lista Cuatrimotos</h2>
+
+    <div id="listaCuatrimoto">
+
+    </div>
+
+    <h1>Clientes</h1>
+
+    Id de cliente: <input type="number" id="idCliente"><br>
+    Nombre de cliente: <input type="text" id="nombreCliente"><br>
+    Correo de cliente: <input type="text" id="mailCliente"><br>
+    Edad de cliente: <input type="number" id="edadCliente"><br>
+
+    <button onclick="leerClientes()">CONSULTAR</button>
+    <button onclick="guardarCliente()">GUARDAR</button>
+    <button onclick="editarCliente()">ACTUALIZAR</button>
+    <button onclick="buscarClientesId()">BUSCAR</button>
+
+    <h2>Lista Clientes</h2>
+
+    <div id="listaClientes">
+
+    </div>
+
+    <h1>Mensajes</h1>
+
+    Id mensaje: <input type="number" id="idMensaje"><br>
+    Mensaje: <input type="text" id="TextoMensaje"><br>
+
+    <button onclick="leerMensajes()">CONSULTAR</button>
+    <button onclick="guardarMensajes()">GUARDAR</button>
+    <button onclick="editarMensajes()">ACTUALIZAR</button>
+    <button onclick="buscarMensajesId()">BUSCAR</button>
+
+
+    <h2>Lista Mensajes</h2>
+
+    <div id="listaMensajes">
+
+    </div>
+
+    <h1>Reservación</h1>
+
+    Id de reservacion: <input type="number" id="idReservacion"><br>
+    Fecha de inicio: <input type="date" id="fechaInicio"><br>
+    Fecha de devolucion: <input type="date" id="fechaDevolucion"><br>
+    Calificaciones: <input type="texto" id="calificaciones"><br>
+
+    <button onclick="leerReservaciones()">CONSULTAR</button>
+    <button onclick="guardarReservacion()">GUARDAR</button>
+    <button onclick="editarReservacion()">ACTUALIZAR</button>
+    <button onclick="buscarReservacionId()">BUSCAR</button>
+
+
+    <h2>Lista Reservaciones</h2>
+
+    <div id="listaReservaciones">
+
+    </div>
+
+</body>
+</html>
